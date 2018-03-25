@@ -1,0 +1,223 @@
+body {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+
+header {
+	background-color: #fcc188;
+	height: 150px;
+	max-width: 1000px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#top_name {
+	text-align: right;
+}
+#prof {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 19px;
+	color: #392330;
+	padding-top: 5px;
+}
+
+#fio {
+	font-family: 'Chelsea Market', cursive;
+	font-style: italic;
+	font-size: 28px;
+	color: #ed1c24;
+	text-shadow: 0px 3px 3px black;
+}
+
+body .main {
+	height: 1300px;
+	background-color: #615956;
+	max-width: 68%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+body .about_me {
+
+	font-family: 'Chelsea Market', cursive;
+	font-size: 30px;
+	color: #fcc188;
+	box-sizing: border-box;
+	padding-top: 18px;
+
+}
+
+.about_me p {
+	font-family: 'Exo', sans-serif;
+	font-size: 17px;
+	color: #b1aaa7;
+	
+
+}
+
+.about_me ul li {
+	font-family: 'Exo', sans-serif;
+	font-size: 17px;
+	color: #b1aaa7;
+	padding-bottom: 10px;
+	margin-left: -41px;
+}
+
+
+
+#education span{
+	text-transform: uppercase;
+	padding-left: 25px;
+	font-family: 'Chelsea Market', cursive;
+	font-size: 30px;
+	color: #fcc188;
+}
+
+#education {
+	float: left;
+}
+
+body .education_circle {
+	width: 50px;
+	height: 50px;
+	border-radius:50%;
+	background: #fcc188;
+	margin-top: -5px;
+	
+}
+
+.education_circle img{
+	width: 28px;
+	height: 38px;
+	padding-top: 5px;
+	padding-left: 11px;
+}
+
+
+.education_circle span {
+
+
+}
+
+#education hr {
+	width: 600px;
+	margin-top: 19px;
+	border-color: #939598;
+	margin-left: 16px;
+	margin-bottom: 28px;
+
+
+}
+
+.right_area {
+	right: 0px;
+	float: right;
+	background: #414142;
+	width: 300px;
+	height: 1300px;
+	position: relative;
+	box-sizing: border-box;
+	padding-right: 15px;
+	padding-left: 15px;
+	
+}
+
+.photo_circle {
+	width: 250px;
+	height: 250px;
+	border-radius:50%;
+	background: #fcc188;
+	margin-top: 40px;
+	margin-left: 11px;
+	text-align: center;
+}
+
+.photo_circle span {
+	line-height: -1px;
+	position: relative;
+	font-family: 'Chelsea Market', cursive;
+	font-size: 30px;
+	top: 86px;
+
+}
+
+.contact_information span{
+	position: relative;
+	left: 40px;
+	top: -28px;
+	font-family: 'Exo', sans-serif;
+	font-style: italic;
+	font-size: 17px;
+	color: #afaea5;
+	top: 12px;
+
+}
+.circle {
+	width: 35px;
+	height: 35px;
+	border-radius:50%;
+	background: #fcc188;
+	margin-top: 25px;
+	display: block;
+	margin-bottom: -40px;
+}
+.circle img{
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+.circle span {
+	display: block;
+}
+.contact_information hr {
+	width: 267px;
+	margin-top: 35px;
+	border-color: #939598;
+	margin-left: 0;
+}
+.skills span{
+	text-transform: uppercase;
+	padding-left: 0px;
+	font-family: 'Chelsea Market', cursive;
+	font-size: 30px;
+	color: #fcc188;
+	padding-top: 8px;
+}
+.skills {
+	padding-top: 8px;
+}
+.skills p {
+	text-transform: uppercase;
+	font-family: 'Chelsea Market', cursive;
+	font-size: 15px;
+	color: #ffff;
+}
+
+
+.progress-bar {
+	width: 97%;
+	background-color: #babcbc;
+}
+
+.progress-bar-fill {
+	display: block;
+	height: 10px;
+	background-color: #fcc188;
+	transition: width 500ms ease-in-out;
+}
+
+.description_progress {
+	font-family: 'Exo', sans-serif;
+	font-size: 17px;
+	color: #fff;
+	padding-left: 2px;
+	padding-bottom: 1px;
+	padding-top: 5px;
+
+}
